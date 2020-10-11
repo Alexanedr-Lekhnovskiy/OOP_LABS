@@ -32,7 +32,6 @@ namespace LABA_01
             var sum_penny = coin1.Penny + coin2.Penny;
             Int64 sum_rubles = coin1.Rubles + coin2.Rubles;
             Money result = new Money((sum_rubles + sum_penny / 100), ((byte)(sum_penny % 100)));
-
             return result;
         }
 
@@ -120,7 +119,6 @@ namespace LABA_01
             return !(coin1 > coin2);
         }
 
-
         public static bool operator ==(Money coin1, Money coin2)
         {
             return (coin1.Rubles == coin2.Rubles && coin1.Penny == coin2.Penny);
@@ -133,12 +131,19 @@ namespace LABA_01
 
         public override bool Equals(object obj)
         {
-            return base.Equals(obj);
+            if(obj is Money)
+            {
+                return this == (Money)obj;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public override int GetHashCode()
         {
-            return base.GetHashCode();
+            return Rubles.GetHashCode();
         }
 
         public override string ToString()
