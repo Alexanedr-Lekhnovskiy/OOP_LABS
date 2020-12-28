@@ -1,0 +1,7 @@
+C:\Users\PKboy\Downloads\Test_1\LABA_01\bin\Debug\LABA_01.exe.config
+C:\Users\PKboy\Downloads\Test_1\LABA_01\bin\Debug\LABA_01.exe
+C:\Users\PKboy\Downloads\Test_1\LABA_01\bin\Debug\LABA_01.pdb
+C:\Users\PKboy\Downloads\Test_1\LABA_01\obj\Debug\LABA_02.csprojAssemblyReference.cache
+C:\Users\PKboy\Downloads\Test_1\LABA_01\obj\Debug\LABA_02.csproj.CoreCompileInputs.cache
+C:\Users\PKboy\Downloads\Test_1\LABA_01\obj\Debug\LABA_01.exe
+C:\Users\PKboy\Downloads\Test_1\LABA_01\obj\Debug\LABA_01.pdb
